@@ -1,0 +1,64 @@
+.logo {
+    width: 40px;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background: white;
+}
+.contenido {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 45%;
+}
+h1 {
+    font-size: 48px;
+}
+h5 {
+    transform: translateX(3px);
+    position: absolute;
+}
+.parrafo {
+    transform: translateY(-42px);
+    position: absolute;
+}
+.imglogo {
+    width: 50px;
+}
+.otros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.other {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    margin-top: -92px;
+    background: white;
+    height: auto;
+    padding: 30px 50px;
+}
+.img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parra {
+    margin: -20px;
+}
+.title {
+    margin: 14px;
+    padding: 6px;
+}
+.fondopizza {
+    width: 100%;
+}
