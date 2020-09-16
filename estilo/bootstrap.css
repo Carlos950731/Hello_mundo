@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#e66465, #9198e5);
+    flex-direction: column;
+    align-items: center;
+}
+.btn-primary {
+    background: red;
+    border-color: red;
+    transition: 2s;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+.card {
+    align-items: center;
+    width: 70%;
+    margin-top: 50px;
+}
+.btn-primary:hover {
+    background: black;
+    border-color: black; 
+    color: red;
+    transform: scale(1.1);
+}
+.card-body {
+    width: 100%;
+}

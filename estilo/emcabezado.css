@@ -1,7 +1,11 @@
 .encabezado {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 0;
+    width: 100%;
+}
+header {
+    width: 100%;
 }
 nav.menu {
     align-self: center;
@@ -13,6 +17,7 @@ nav.menu {
     font-size: 19px;
     text-decoration: none;
     align-self: center;
+    color: white;
 }
 .emcabezado2 {
     display: flex;
@@ -32,4 +37,7 @@ button.primary {
 input[type="text"] {
     width: 470px;
     border-radius: 5px;
+}
+.item:hover {
+    color: red; 
 }
